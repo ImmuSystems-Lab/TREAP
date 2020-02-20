@@ -8,3 +8,7 @@ The R package of TREAP (v.1.0) has been successfully tested on the R (3.5.2) pla
 1. The R package devtools is required to install treap from github repository.
 2. Run the following codes to download and install treap: devtools::install_github("ImmuSystems-Lab/TREAP/treap").
 3. Use library(treap) to check installation and load the package.
+
+# Prepare inputs for TREAP
+
+TREAP needs protein-protein interactions (PPIs), protein-gene interactions (PGIs) and adjusted p-values for calculations to predict drug targets.
