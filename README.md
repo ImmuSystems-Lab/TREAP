@@ -11,4 +11,8 @@ The R package of TREAP (v.1.0) has been successfully tested on the R (3.5.2) pla
 
 # Prepare inputs for TREAP
 
-TREAP needs protein-protein interactions (PPIs), protein-gene interactions (PGIs) and adjusted p-values for calculations to predict drug targets.
+TREAP needs protein-protein interactions (PPIs), protein-gene interactions (PGIs) and adjusted p-values from gene expression profiles to predict drug targets.
+
+By the function named btw_pro, users can calculate the betweenness values of the PPI+PGI network. Interactions with proteins or genes not unavailable in the adjusted p-values will be removed.
+
+The treap function requires the matrix of adjusted p-values and betweenness values obtained from btw_pro to calculate the score of each gene in the adjusted p-values.
