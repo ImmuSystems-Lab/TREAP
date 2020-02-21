@@ -31,7 +31,7 @@ ppipgi.btw = btw_pro(ppi=ppi.hm, pgi=pgi.b, genesym=genesym)
 The function `treap` requires the matrix of adjusted *p*-values and betweenness values obtained from `btw_pro`, e.g. `ppipgi.btw`, to calculate the score of each gene in the adjusted p-values. Genes with higher scores are more likely to be targets of associated drugs.
 
 ```{r warning=FALSE,eval=FALSE,echo=TRUE}
-scores = treap(adj = adj.dp14, btw = ppipgi.btw)
+scores = treap(adj = adj_dp14, btw = ppipgi.btw)
 ```
 
 # References:
