@@ -34,7 +34,7 @@ The function `treap` requires the matrix of adjusted *p*-values and betweenness 
 scores = treap(adj = adj_dp14, btw = ppipgi.btw)
 ```
 
-## References:
+## References
 
 [1] Bansal, M., et al., A community computational challenge to predict the activity of pairs of compounds. Nat Biotechnol, 2014. 32(12): p. 1213-22.
 
