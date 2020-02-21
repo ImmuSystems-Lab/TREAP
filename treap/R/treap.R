@@ -5,7 +5,7 @@
 #' protein-protein interactions, or PPIs, and protein-gene interactions, or PGIs. 
 #' Genes with higher scores are more likely to be targets of associated drugs.
 #' 
-#' @param adj A matrix of djusted p-values. The column names refer to samples to be analyzed, and the row names refer to genes.
+#' @param adj A matrix of adjusted p-values. The column names refer to samples to be analyzed, and the row names refer to genes.
 #' @param btw A vector of PPI+PGI betweenness. The names of btw should be the same type of gene IDs with adj, but don't have to be in the same order.
 #' @keywords 
 #' @export 
