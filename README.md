@@ -25,6 +25,7 @@ TREAP needs protein-protein interactions (PPIs), protein-gene interactions (PGIs
 By the function `btw_pro`, users can calculate the betweenness values of the PPI+PGI network. Interactions with proteins or genes unavailable in the adjusted *p*-values will be removed.
 
 ```{r warning=FALSE,eval=FALSE,echo=TRUE}
+library(treap)
 ppipgi.btw = btw_pro(ppi=ppi.hm, pgi=pgi.b, genesym=genesym)
 ```
 
